@@ -29,20 +29,9 @@ const SideDrawer = (props) => {
           onClick={() => {
             scrollToElement('info')
           }} >
-          Info
+          Contacts
         </ListItem>
-        <ListItem button onClick={() =>
-          scrollToElement('highlights')}>
-          Highlights
-        </ListItem>
-        <ListItem button onClick={() =>
-          scrollToElement('pricing')}>
-          Pricing
-        </ListItem>
-        <ListItem button onClick={() =>
-          scrollToElement('location')}>
-          Location
-        </ListItem>
+
       </List>
     </Drawer>
   )
